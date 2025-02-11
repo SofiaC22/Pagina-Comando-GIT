@@ -1,0 +1,33 @@
+table {
+border: solid 1px;
+padding: 30px;
+margin: 50px;
+}
+th
+{
+    background-color: beige;
+}
+
+#contenedor-lista {
+ 
+}
+
+.tarjeta {
+    border:solid 1px #ccc;
+    padding:10px;
+    border-radius: 15px;
+}
+@media (max-width:1000px) { 
+    #contenedor-tabla {display:none}
+    #contenedor-lista  {
+        display:flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width:1001px) { 
+    #contenedor-tabla {display:block}
+    #contenedor-lista {display:none}
+}

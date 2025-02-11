@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
     <h1>Pagina Comando</h1>
+    <div id="contenedor-tabla"> 
+        
     <table>
+    
      <Thead>
         <tr>
             <th>Tipo de comando</th>
@@ -47,7 +51,7 @@
         </tr>
         <tr>
             <td>Git pull</td>
-            <td>Se utiliza para recibir actualizaciones del repositorio remoto. </td>
+            <td>Se utiliza para recibir actualizaciones del repositorio remoto.</td>
         </tr>
         <tr>
             <td>Git revert</td>
@@ -59,5 +63,52 @@
         </tr>
      </tbody>
     </table>
+    </div>
+    <div id="contenedor-lista">
+        <div class="tarjeta">
+            <h3 class="tarjeta-titulo">Git clone</h3>
+            <p class="tarjeta-descripcion">Git clone básicamente realiza una copia idéntica de la última versión de un proyecto en un repositorio y la guarda en el ordenador.</p>
+        </div>
+
+            <div class="tarjeta">
+                <h3 class="tarjeta-titulo">Git branch</h3>
+                <p class="tarjeta-descripcion">Las ramas (branch) son altamente importantes en el mundo de Git. Usando ramas, varios desarrolladores pueden trabajar en paralelo en el mismo proyecto simultáneamente.</p>
+            </div>
+            
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">Git checkout</h3>
+                    <p class="tarjeta-descripcion">Para trabajar en una rama, primero tienen que cambiarse a ella. Se usa principalmente para cambiar de una rama a otra. También la pueden usar para chequear archivos y commits.</p>
+                </div>
+               
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">Git status</h3>
+                    <p class="tarjeta-descripcion">El comando de git status nos da toda la información necesaria sobre la rama actual.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">Git add</h3>
+                    <p class="tarjeta-descripcion">Se usar el comando git add para incluir los cambios del o de los archivos en el siguiente commit.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">Git commit</h3>
+                    <p class="tarjeta-descripcion">Es como establecer un punto de control en el proceso de desarrollo al cual pueden volver más tarde si es necesario.
+                        También se necesita escribir un mensaje corto para explicar qué se ha desarrollado o modificado en el código fuente.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">Git push</h3>
+                    <p class="tarjeta-descripcion">Después de haber confirmado los cambios, el siguiente paso es enviar los cambios al servidor remoto. Git push envía los commits al repositorio remoto.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">Git pull</h3>
+                    <p class="tarjeta-descripcion">Se utiliza para recibir actualizaciones del repositorio remoto.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">Git revert</h3>
+                    <p class="tarjeta-descripcion">Se utiliza para deshacer los cambios que se han hecho. Hay varias maneras para deshacer los cambios que se han hecho local y/o en remoto, pero una manera segura para deshacer los commits es utilizar git revert.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">Git merge</h3>
+                    <p class="tarjeta-descripcion">Cuando se haya completado el desarrollo del proyecto en la rama y todo funcione correctamente, el último paso es fusionar la rama con su rama padre (dev o master). Esto se hace con el comando git merge.</p>
+                </div>
+    </div>
 </body>
 </html>
