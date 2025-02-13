@@ -5,7 +5,12 @@ margin: 50px;
 }
 th
 {
-    background-color: beige;
+    background-color: darksalmon;
+}
+
+tr
+{
+background-color: pink;
 }
 
 #contenedor-lista {
@@ -16,18 +21,22 @@ th
     border:solid 1px #ccc;
     padding:10px;
     border-radius: 15px;
+    background-color: #B2A5FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 @media (max-width:1000px) { 
     #contenedor-tabla {display:none}
     #contenedor-lista  {
         display:flex;
         gap: 10px;
         flex-direction: column;
+        
     }
 
 }
 
 @media (min-width:1001px) { 
-    #contenedor-tabla {display:block}
+    #contenedor-tabla {display:block} 
     #contenedor-lista {display:none}
 }
