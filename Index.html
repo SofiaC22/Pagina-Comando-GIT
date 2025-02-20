@@ -88,29 +88,29 @@
                     <p id="git-status-tarjeta-descripcion" class="tarjeta-descripcion">El comando de git status nos da toda la información necesaria sobre la rama actual.</p>
                 </div>
                 <div class="tarjeta">
-                    <h3 class="tarjeta-titulo">Git add</h3>
-                    <p class="tarjeta-descripcion">Se usar el comando git add para incluir los cambios del o de los archivos en el siguiente commit.</p>
+                    <div><h3 class="tarjeta-titulo">Git add</h3><button onclick="ocultarElemento('git-add-descripcion')">ocultar</button><button onclick="mostrarElemento('git-add-descripcion')">mostrar</button></div>
+                    <p id="git-add-tarjeta-descripcion" class="tarjeta-descripcion">Se usar el comando git add para incluir los cambios del o de los archivos en el siguiente commit.</p>
                 </div>
                 <div class="tarjeta">
-                    <h3 class="tarjeta-titulo">Git commit</h3>
-                    <p class="tarjeta-descripcion">Es como establecer un punto de control en el proceso de desarrollo al cual pueden volver más tarde si es necesario.
+                <div><h3 class="tarjeta-titulo">Git commit</h3><button onclick="ocultarElemento('git-commit-descripcion')">ocultar</button><button onclick="mostrarElemento('git-commit-descripcion')">mostrar</button></div>
+                    <p id="git-commit-tarjeta-descripcion" class="tarjeta-descripcion">Es como establecer un punto de control en el proceso de desarrollo al cual pueden volver más tarde si es necesario.
                         También se necesita escribir un mensaje corto para explicar qué se ha desarrollado o modificado en el código fuente.</p>
                 </div>
                 <div class="tarjeta">
-                    <h3 class="tarjeta-titulo">Git push</h3>
-                    <p class="tarjeta-descripcion">Después de haber confirmado los cambios, el siguiente paso es enviar los cambios al servidor remoto. Git push envía los commits al repositorio remoto.</p>
+                </div><h3 class="tarjeta-titulo">Git push</h3><button onclick="ocultarElemento('git-push-descripcion')">ocultar</button><button onclick="mostrarElemento('git-push-descripcion')">mostrar</button></div>
+                    <p id="git-push-tarjeta-descripcion" class="tarjeta-descripcion">Después de haber confirmado los cambios, el siguiente paso es enviar los cambios al servidor remoto. Git push envía los commits al repositorio remoto.</p>
                 </div>
                 <div class="tarjeta">
-                    <h3 class="tarjeta-titulo">Git pull</h3>
-                    <p class="tarjeta-descripcion">Se utiliza para recibir actualizaciones del repositorio remoto.</p>
+                </div><h3 class="tarjeta-titulo">Git pull</h3><button onclick="ocultarElemento('git-pull-descripcion')">ocultar</button><button onclick="mostrarElemento('git-pull-descripcion')">mostrar</button></div>
+                    <p id="git-pull-tarjeta-descripcion" class="tarjeta-descripcion">Se utiliza para recibir actualizaciones del repositorio remoto.</p>
                 </div>
                 <div class="tarjeta">
-                    <h3 class="tarjeta-titulo">Git revert</h3>
-                    <p class="tarjeta-descripcion">Se utiliza para deshacer los cambios que se han hecho. Hay varias maneras para deshacer los cambios que se han hecho local y/o en remoto, pero una manera segura para deshacer los commits es utilizar git revert.</p>
+                <div><h3 class="tarjeta-titulo">Git revert</h3><button onclick="ocultarElemento('git-revert-descripcion')">ocultar</button><button onclick="mostrarElemento('git-revert-descripcion')">mostrar</button></div>
+                    <p id="git-revert-tarjeta-descripcion" class="tarjeta-descripcion">Se utiliza para deshacer los cambios que se han hecho. Hay varias maneras para deshacer los cambios que se han hecho local y/o en remoto, pero una manera segura para deshacer los commits es utilizar git revert.</p>
                 </div>
                 <div class="tarjeta">
-                    <h3 class="tarjeta-titulo">Git merge</h3>
-                    <p class="tarjeta-descripcion">Cuando se haya completado el desarrollo del proyecto en la rama y todo funcione correctamente, el último paso es fusionar la rama con su rama padre (dev o master). Esto se hace con el comando git merge.</p>
+                <div><h3 class="tarjeta-titulo">Git merge</h3><button onclick="ocultarElemento('git-merge-descripcion')">ocultar</button><button onclick="mostrarElemento('git-merge-descripcion')">mostrar</button><div></div>
+                    <p id="git-merge-tarjeta-descripcion" class="tarjeta-descripcion">Cuando se haya completado el desarrollo del proyecto en la rama y todo funcione correctamente, el último paso es fusionar la rama con su rama padre (dev o master). Esto se hace con el comando git merge.</p>
                 </div>
     </div>
 </body>
