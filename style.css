@@ -24,6 +24,7 @@ background-color: pink;
     background-color: #B2A5FF;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.tarjeta:nth-child(even){background-color: aquamarine;}
 
 @media (max-width:1000px) { 
     #contenedor-tabla {display:none}
